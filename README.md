@@ -11,6 +11,14 @@ val list = MutableList(10){ 0 }  // all elemets to zero 0,0,0...
 ```kotlin
 val (a,b) = readLine()!!.split(' ') //input 1 2
 ```
+```kotlin
+/**input
+   1
+   2
+   3
+*/
+val (a,b,c) = List(3){readLine()!!.toInt()}
+```
 ## Reading list from input without using loop
 ```kotlin
 val list = MutableList(10){readLine()!!.toInt()}
